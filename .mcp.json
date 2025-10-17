@@ -1,0 +1,20 @@
+{
+    "mcpServers": {
+      "fetch": {
+        "command": "uvx",
+        "args": ["mcp-server-fetch"]
+      },
+      "Context7": {
+        "command": "npx",
+        "args": ["-y", "@upstash/context7-mcp"]
+      },
+      "databricks-sdk-py": {
+        "command": "npx",
+        "args": ["mcp-remote", "https://gitmcp.io/databricks/databricks-sdk-py"]
+      },
+      "filesystem": {
+        "command": "npx",
+        "args": ["-y", "@modelcontextprotocol/server-filesystem", "~/", "~/workspace"]
+      }
+    }
+  }
